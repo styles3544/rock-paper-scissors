@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Game | Rock Paper Scissors</title>
+    <nav class="navigation">
+        <ul class="navigation-links">
+            <li class="branding"><strong>Rock Paper Scissors by Piyush Kumar</strong></li>
+            <li class="link"><a target="_blank" class = "link" href="https://www.linkedin.com/in/piyush-kumar-styles/">contact me</a></li>
+        </ul>
+    </nav>
+</head>
+<body>
+    <div class="container">
+        <h1 id="top" style="text-align: center;">Welcome to the Most Simplest Rock, Paper & Scissors</h1>
+        <p class="about-game">
+            I hope you have played this game before. No? Below are the rules that you need to know to play the game: 
+        </p>
+        <p class="rules-games">
+            The game is played where players deliver hand signals that will represent the elements of the game; rock, paper and scissors. The outcome of the game is determined by 3 simple rules:
+            <ol>
+                <li class="list-item">Rock wins against scissors.</li>
+                <li class="list-item">Scissors win against paper.</li>
+                <li class="list-item">Paper wins against rock.</li>
+            </ol>          
+        </p>
+        <p><strong>I hope you'll enjoy ^-^"</strong></p>
+        <div class="choice-options">
+            <div class="choice choice-rock">
+                <img src="./images/rock.jpg" alt="rock image" width="150px">
+                <button id="btn-rock">Select Rock</button>
+            </div>
+            <div class="choice choice-paper">
+                <img src="./images/paper_2.jpg" alt="paper image" width="150px">
+                <button id="btn-paper">Select Paper</button>
+            </div>
+            <div class="choice choice-scissors">
+                <img src="./images/scissors.jpg" alt="scissors image" width="150px">
+                <button id="btn-scissors">Select Scissors</button>
+            </div>
+        </div>
+        <p id="game-results">
+            <h3>Your results will show below!!</h3>
+            <p id="choices-made"></p>
+            <p><span id="who-wins" style="font-weight: bolder; background-color: yellow;"></span></p>
+        </p>
+    </div>
+
+    <div class="conatiner">
+        <script src="main.js"></script>
+    </div>
+    <div class="footer">
+        <p class="author-name"><a target="_blank" href="https://www.linkedin.com/in/piyush-kumar-styles/">Piyush Kumar</a></p>
+        <p class="created-on">14 March 2023 | Copyright</p>
+        <p><a href="#top">Back To Top!</a></p>
+    </div>
+</body>
+</html>
